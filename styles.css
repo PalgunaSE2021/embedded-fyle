@@ -61,7 +61,7 @@ body {
 }
 
 .stacked-cards .stacked-card:nth-child(1) {
-  animation: card-popping 2s ease-in-out infinite;
+  animation: card-popping 3s ease-in-out infinite;
   animation-delay: 0s;
 }
 
