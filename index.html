@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Embedded Fyle</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="part-one">
+      <div class="navbar-container fixed-top">
+        <nav id="navbar" class="navbar fixed-top">
+          <a class="navbar-brand" href="#">
+            <img src="assets/embedded-fyle-logo.png" style="height: 40px" />
+          </a>
+          <button
+            type="button"
+            class="talk-to-us-button-1"
+            data-bs-toggle="modal"
+            data-bs-target="#talkToUsModal"
+          >
+            Talk to us
+          </button>
+        </nav>
+      </div>
+      <div class="container">
+        <!-- Modal Dialog -->
+        <div
+          class="modal fade"
+          id="talkToUsModal"
+          tabindex="-1"
+          aria-labelledby="talkToUsModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-body d-flex p-0">
+                <!-- Image Section -->
+                <div class="col-md-6">
+                  <img
+                    src="assets/dialog-image.png"
+                    alt="Dialog Image"
+                    class="img-fluid h-100 w-100"
+                    style="object-fit: cover"
+                  />
+                </div>
+                <!-- Form Section -->
+                <div class="col-md-6 p-4">
+                  <h5 class="modal-title mb-4" id="talkToUsModalLabel">
+                    Talk to a Fyle Specialist
+                  </h5>
+                  <form id="talkToUsForm">
+                    <div class="mb-3">
+                      <label for="name">Full Name</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="name"
+                        required
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label for="email">Work Email</label>
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        required
+                      />
+                    </div>
+                    <div class="form-check mb-3">
+                      <input
+                        type="checkbox"
+                        class="form-check-input"
+                        id="termsCheck"
+                        required
+                      />
+                      <label class="form-check-label" for="termsCheck"
+                        >I agree to the terms and conditions</label
+                      >
+                    </div>
+                    <button
+                      type="submit"
+                      id="submitBtn"
+                      class="btn btn-primary"
+                      disabled
+                    >
+                      Add
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="heading-container">
+        <span class="heading">Embedded expense<br />management for</span>
+        <div style="height: 150px"></div>
+        <span class="heading-description">
+          Real-time card feeds on Visa, Mastercard, Virtual Cards from<br />American
+          Express, Powerful Expense Policies, Workflow Automation<br />and
+          Accounting Integrations - embedded in your platform
+        </span>
+        <div class="stacked-cards">
+          <div class="stacked-card card-styling">Banks & Card Issuers</div>
+          <div class="stacked-card card-styling">Payroll and HCM</div>
+          <div class="stacked-card card-styling">Corporate Travel</div>
+        </div>
+        <button
+          type="button"
+          class="talk-to-us-button-2"
+          data-bs-toggle="modal"
+          data-bs-target="#talkToUsModal"
+        >
+          Talk to Us
+        </button>
+      </div>
+      <div class="image-container">
+        <div class="image-wrapper">
+          <img
+            src="assets/fyle-model-image.png"
+            alt="Image 1"
+            class="image image-1"
+          />
+          <img
+            src="assets/white-label-image.png"
+            alt="Image 2"
+            class="image image-2"
+          />
+          <div class="divider"></div>
+        </div>
+      </div>
+      <div class="power-container">
+        <span class="power-header"
+          >Powerful expense management,<br />the way you prefer</span
+        >
+        <div class="power-with-image">
+          <div class="power-description">
+            <span class="power-description-header-1"
+              >White-labeled expense management
+            </span>
+            <span class="power-description-1"
+              >A ready-to-use expense management platform that automates expense
+              reporting, credit card reconciliation, reimbursements, accounting
+              and more - all on customers’ existing credit cards.
+            </span>
+            <span class="power-description-header-2">Expense API</span>
+            <span class="power-description-2"
+              >Use Fyle’s API to craft a customized, all-in-one expense
+              management solution that fits into your offering, fulfils your
+              customers’ needs, and integrates seamlessly with your stack.
+            </span>
+          </div>
+          <img src="assets/White-labeled.png" class="image-3" />
+        </div>
+      </div>
+      <span class="text-3-header">Trusted by Thousands of Customers</span>
+
+      <div class="carousel-container">
+        <div class="logo-track">
+          <img src="assets/logo/logo1.png" alt="Company 1" class="logo" />
+          <img src="assets/logo/logo2.png" alt="Company 2" class="logo" />
+          <img src="assets/logo/logo3.png" alt="Company 3" class="logo" />
+          <img src="assets/logo/logo4.png" alt="Company 4" class="logo" />
+          <img src="assets/logo/logo5.png" alt="Company 5" class="logo" />
+          <img src="assets/logo/logo6.png" alt="Company 6" class="logo" />
+          <img src="assets/logo/logo7.png" alt="Company 7" class="logo" />
+          <img src="assets/logo/logo8.png" alt="Company 6" class="logo" />
+          <img src="assets/logo/logo1.png" alt="Company 1" class="logo" />
+          <img src="assets/logo/logo2.png" alt="Company 2" class="logo" />
+          <img src="assets/logo/logo3.png" alt="Company 3" class="logo" />
+          <img src="assets/logo/logo4.png" alt="Company 4" class="logo" />
+          <img src="assets/logo/logo5.png" alt="Company 5" class="logo" />
+          <img src="assets/logo/logo6.png" alt="Company 6" class="logo" />
+          <img src="assets/logo/logo7.png" alt="Company 7" class="logo" />
+          <img src="assets/logo/logo8.png" alt="Company 6" class="logo" />
+        </div>
+      </div>
+    </div>
+    <div class="part-2">
+      <div class="part-2-1">
+        <span class="part-2-heading"
+          >Elevate customer experience and earn higher revenue with embedded
+          expense management</span
+        >
+        <div class="para-description">
+          <div class="part-2-description">
+            <span class="para-1-heading">
+              Earn higher revenue from your customers
+            </span>
+            <span class="para-1">
+              Earn additional SaaS revenue from your existing customers with
+              embedded expense management. Increase ACV and onboard more users,
+              all while giving them a cost-effective platform.
+            </span>
+            <span class="para-1-heading">
+              Go from contract to deployment 5X faster
+            </span>
+            <span class="para-1"
+              >Use Fyle’s pre-built expense management offering in your brand,
+              that comes with years of experience, and go to market faster.
+              Start offering customers the value of real-time expense management
+              right from Day 1.
+            </span>
+            <span class="para-1-heading">
+              Increase product adoption and reduce churn
+            </span>
+            <span class="para-3"
+              >Ensure better user adoption and lower churn by rolling out
+              powerful new expense management features. When your users learn
+              that they can submit receipts via text, they’re not going to turn
+              to competitors.
+            </span>
+          </div>
+          <img src="assets/page-2-image.png" class="image-4" />
+        </div>
+        <div class="custom-image-2"></div>
+      </div>
+    </div>
+
+    <div class="part-3">
+      <span class="part-3-heading"> Build, launch and scale faster </span>
+    </div>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
